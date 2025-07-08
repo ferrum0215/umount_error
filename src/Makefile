@@ -62,7 +62,7 @@ build-lkl-xfs: get-lkl
 
 get-lkl: build-img-sys
 	if [ ! -d "$(LKL_DIR)" ]; then \
-		git clone https://github.com/sslab-gatech/lkl.git $(LKL_DIR); \
+		git clone https://github.com/ferrum0215/lkl.git $(LKL_DIR); \
 	fi
 
 get-llvm: 
